@@ -51,17 +51,11 @@ int main()
    id01.setTimeSpent(5.0);
    id02.setTimeSpent(10.0);
 
-
-
-   //operator -
-
-   //operator ==
-
-   // cout << "Removing last MVP give to a player\n ";
-   // sp2.removeLastMVP( );
-   // sp2.listMVPHistory();
+   cout << "Removing last MVP give to a player\n ";
+   sp2.removeLastMVP( );
+   sp2.listMVPHistory();
 
    
-   // cout << "Test3";
+   cout << "Test3";
    return 0;
 }

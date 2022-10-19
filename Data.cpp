@@ -44,10 +44,6 @@ int Data::VerificaDia(int inputDay) const
     
     if ( inputDay > 0 && inputDay <= diasPorMes[ mes ] )
         return inputDay;
-    
-    if ( mes == 2 && inputDay == 29 && ( ano % 400 == 0 ||
-            ( ano % 4 == 0 && ano % 100 != 0 ) ) )
-        return inputDay;
 
     throw std::invalid_argument( "Date not accepted, try using a valid date" );
     // cout << "Dia invalido (" << inputDay << ") configurado para 1.\n";

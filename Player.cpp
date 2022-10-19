@@ -1,7 +1,5 @@
 #include "Overwatch2.h"
 
-
-
 Player::Player( )
 :verifiedEmail(""), name("")
 {

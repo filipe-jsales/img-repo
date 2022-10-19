@@ -1,9 +1,3 @@
-/* 
- * File:   Data.h
- * Author: Cssj
- *
- * Created on 9 de Junho de 2012, 14:47
- */
 
 #ifndef DATA_H
 #define	DATA_H
@@ -62,8 +56,8 @@ public:
         {
             cout << "Void operator !()" << "\n";
         }
-private:
     };
+private:
     
     int mes;
     int dia;
@@ -73,6 +67,5 @@ private:
 
 
 };
-// enum class Meses;
 #endif	/* DATA_H */
 
